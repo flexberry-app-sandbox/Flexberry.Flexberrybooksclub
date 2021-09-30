@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISFlexberrybooksclubMeetingplan",
+  "modelName": "i-i-s-flexberrybooksclub-meetingplan",
+  "className": "Meetingplan",
+  "nameSpace": "IIS.Flexberrybooksclub",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "plandate",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "meetingrequest",
+      "relatedTo": "i-i-s-flexberrybooksclub-meetingrequest",
+      "inverse": "meetingplan"
+    }
+  ],
+  "projections": [
+    {
+      "name": "MeetingplanE",
+      "modelName": "i-i-s-flexberrybooksclub-meetingplan",
+      "attrs": [
+        {
+          "name": "plandate",
+          "caption": "Plandate",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "MeetingrequestE",
+          "caption": "Meetingrequest",
+          "name": "meetingrequest",
+          "relatedTo": "i-i-s-flexberrybooksclub-meetingrequest",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "MeetingplanL",
+      "modelName": "i-i-s-flexberrybooksclub-meetingplan",
+      "attrs": [
+        {
+          "name": "plandate",
+          "caption": "Plandate",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

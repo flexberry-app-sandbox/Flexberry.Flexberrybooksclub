@@ -1,0 +1,4 @@
+import IISFlexberrybooksclubMeetingplanEController from '../i-i-s-flexberrybooksclub-meetingplan-e';
+
+var IISFlexberrybooksclubMeetingplanENewController = IISFlexberrybooksclubMeetingplanEController;
+export default IISFlexberrybooksclubMeetingplanENewController;

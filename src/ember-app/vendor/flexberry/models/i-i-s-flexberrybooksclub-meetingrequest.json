@@ -1,0 +1,105 @@
+﻿{
+  "name": "IISFlexberrybooksclubMeetingrequest",
+  "modelName": "i-i-s-flexberrybooksclub-meetingrequest",
+  "className": "Meetingrequest",
+  "nameSpace": "IIS.Flexberrybooksclub",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "requestdate",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "speaker",
+      "relatedTo": "i-i-s-flexberrybooksclub-speaker",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "book",
+      "relatedTo": "i-i-s-flexberrybooksclub-book",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "meetingplan",
+      "relatedTo": "i-i-s-flexberrybooksclub-meetingplan",
+      "inverse": "meetingrequest"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "MeetingrequestE",
+      "modelName": "i-i-s-flexberrybooksclub-meetingrequest",
+      "attrs": [
+        {
+          "name": "requestdate",
+          "caption": "Requestdate",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "surname",
+          "lookupValueField": "surname",
+          "relationName": "Speaker",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "surname",
+              "caption": "Surname",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Speaker",
+          "name": "speaker",
+          "relatedTo": "i-i-s-flexberrybooksclub-speaker",
+          "inverse": null
+        },
+        {
+          "lookupValue": "tittle",
+          "lookupValueField": "tittle",
+          "relationName": "Book",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "tittle",
+              "caption": "Tittle",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Book",
+          "name": "book",
+          "relatedTo": "i-i-s-flexberrybooksclub-book",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

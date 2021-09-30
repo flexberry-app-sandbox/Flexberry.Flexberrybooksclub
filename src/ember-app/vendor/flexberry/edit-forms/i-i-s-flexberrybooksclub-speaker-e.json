@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Speaker",
+  "name": "IISFlexberrybooksclubSpeakerE",
+  "className": "SpeakerE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-flexberrybooksclub-speaker",
+      "modelProjection": "SpeakerE"
+    }
+  ]
+}

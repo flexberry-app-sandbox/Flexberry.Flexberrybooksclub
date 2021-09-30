@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISFlexberrybooksclubMeeting",
+  "modelName": "i-i-s-flexberrybooksclub-meeting",
+  "className": "Meeting",
+  "nameSpace": "IIS.Flexberrybooksclub",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "meetingdate",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "report",
+      "relatedTo": "i-i-s-flexberrybooksclub-report",
+      "inverse": "meeting"
+    }
+  ],
+  "projections": [
+    {
+      "name": "MeetingE",
+      "modelName": "i-i-s-flexberrybooksclub-meeting",
+      "attrs": [
+        {
+          "name": "meetingdate",
+          "caption": "Meetingdate",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ReportE",
+          "caption": "Report",
+          "name": "report",
+          "relatedTo": "i-i-s-flexberrybooksclub-report",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "MeetingL",
+      "modelName": "i-i-s-flexberrybooksclub-meeting",
+      "attrs": [
+        {
+          "name": "meetingdate",
+          "caption": "Meetingdate",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

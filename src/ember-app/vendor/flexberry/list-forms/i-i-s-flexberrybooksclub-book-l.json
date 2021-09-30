@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-flexberrybooksclub-book-e",
+  "editForm": "i-i-s-flexberrybooksclub-book-e",
+  "external": false,
+  "caption": "Book",
+  "name": "IISFlexberrybooksclubBookL",
+  "className": "BookL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-flexberrybooksclub-book",
+      "modelProjection": "BookL"
+    }
+  ]
+}

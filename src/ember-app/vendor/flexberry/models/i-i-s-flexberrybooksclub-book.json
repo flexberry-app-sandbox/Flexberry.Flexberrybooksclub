@@ -1,0 +1,180 @@
+﻿{
+  "name": "IISFlexberrybooksclubBook",
+  "modelName": "i-i-s-flexberrybooksclub-book",
+  "className": "Book",
+  "nameSpace": "IIS.Flexberrybooksclub",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "tittle",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "author",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "pages",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "coverURL",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "descriptionURL",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "tags",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "score",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "BookE",
+      "modelName": "i-i-s-flexberrybooksclub-book",
+      "attrs": [
+        {
+          "name": "tittle",
+          "caption": "Tittle",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "author",
+          "caption": "Author",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "pages",
+          "caption": "Pages",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "coverURL",
+          "caption": "Cover URL",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "descriptionURL",
+          "caption": "Description URL",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "tags",
+          "caption": "Tags",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "score",
+          "caption": "Score",
+          "hidden": false,
+          "index": 6
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "BookL",
+      "modelName": "i-i-s-flexberrybooksclub-book",
+      "attrs": [
+        {
+          "name": "tittle",
+          "caption": "Tittle",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "author",
+          "caption": "Author",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "pages",
+          "caption": "Pages",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "coverURL",
+          "caption": "Cover URL",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "descriptionURL",
+          "caption": "Description URL",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "tags",
+          "caption": "Tags",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "score",
+          "caption": "Score",
+          "hidden": false,
+          "index": 6
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

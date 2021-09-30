@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-flexberrybooksclub-meeting-e",
+  "editForm": "i-i-s-flexberrybooksclub-meeting-e",
+  "external": false,
+  "caption": "Meeting",
+  "name": "IISFlexberrybooksclubMeetingL",
+  "className": "MeetingL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-flexberrybooksclub-meeting",
+      "modelProjection": "MeetingL"
+    }
+  ]
+}

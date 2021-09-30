@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISFlexberrybooksclubSpeaker",
+  "modelName": "i-i-s-flexberrybooksclub-speaker",
+  "className": "Speaker",
+  "nameSpace": "IIS.Flexberrybooksclub",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "surname",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "firstname",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "secondname",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "SpeakerE",
+      "modelName": "i-i-s-flexberrybooksclub-speaker",
+      "attrs": [
+        {
+          "name": "surname",
+          "caption": "Surname",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "firstname",
+          "caption": "Firstname",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "secondname",
+          "caption": "Secondname",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "SpeakerL",
+      "modelName": "i-i-s-flexberrybooksclub-speaker",
+      "attrs": [
+        {
+          "name": "surname",
+          "caption": "Surname",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "firstname",
+          "caption": "Firstname",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "secondname",
+          "caption": "Secondname",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Book",
+  "name": "IISFlexberrybooksclubBookE",
+  "className": "BookE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-flexberrybooksclub-book",
+      "modelProjection": "BookE"
+    }
+  ]
+}

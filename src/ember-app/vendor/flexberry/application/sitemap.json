@@ -1,0 +1,43 @@
+﻿{
+  "applicationCaption": "Flexberrybooksclub",
+  "applicationTitle": "Flexberrybooksclub",
+  "items": [
+    {
+      "link": null,
+      "menuName": "flexberrybooksclub",
+      "caption": "Flexberrybooksclub",
+      "title": "Flexberrybooksclub",
+      "children": [
+        {
+          "link": "i-i-s-flexberrybooksclub-speaker-l",
+          "menuName": null,
+          "caption": "Speaker",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-flexberrybooksclub-meetingplan-l",
+          "menuName": null,
+          "caption": "Meetingplan",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-flexberrybooksclub-book-l",
+          "menuName": null,
+          "caption": "Book",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-flexberrybooksclub-meeting-l",
+          "menuName": null,
+          "caption": "Meeting",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

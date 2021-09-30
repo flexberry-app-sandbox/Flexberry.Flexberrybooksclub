@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "speaker",
+      "displayAttributeName": "surname",
+      "required": true,
+      "relationName": "Report.Speaker",
+      "projection": "SpeakerL",
+      "detailModelName": "i-i-s-flexberrybooksclub-report"
+    },
+    {
+      "master": "book",
+      "displayAttributeName": "tittle",
+      "required": true,
+      "relationName": "Report.Book",
+      "projection": "BookL",
+      "detailModelName": "i-i-s-flexberrybooksclub-report"
+    }
+  ],
+  "external": false,
+  "caption": "Meeting",
+  "name": "IISFlexberrybooksclubMeetingE",
+  "className": "MeetingE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-flexberrybooksclub-meeting",
+      "modelProjection": "MeetingE"
+    }
+  ]
+}
